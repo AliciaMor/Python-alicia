@@ -1,0 +1,6 @@
+nombre_1 = input("Quel est le premier nombre ?")
+nombre_2 =  input("Quel est le deuxième nombre ?")
+nombre_1=float(nombre_1)
+nombre_2=float(nombre_2)
+print (f"La somme de {nombre_1} et {nombre_2} vaut:")
+print (f"{nombre_1} + {nombre_2} =", nombre_1+nombre_2)
