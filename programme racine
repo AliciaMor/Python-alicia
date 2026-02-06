@@ -1,7 +1,8 @@
 from math import sqrt
 
 print("Bienvenue dans ce programme qui permet de calculer les racines d'une fonction du second degré.")
-print("Dans la focntion y=ax²+bx+c : ")
+name=input("Comment t'appelles tu ?")
+print("Dans la fonction y=ax²+bx+c : ")
 
 a=input("Quelle est la valeur de a ?")
 b=input("Quelle est la valeur de b ?")
@@ -32,4 +33,4 @@ elif delta > 0 :
     print(f"La valeur de la 1 est de : x = {round(x1,4)}")
     print(f"La valeur de la 2 est de : x = {round(x2,4)}")
     
-print("BYE")
+print(f"BYE {name}")
