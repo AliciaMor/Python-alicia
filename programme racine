@@ -32,3 +32,4 @@ elif delta > 0 :
     print(f"La valeur de la 1 est de : x = {round(x1,4)}")
     print(f"La valeur de la 2 est de : x = {round(x2,4)}")
     
+print("BYE")
