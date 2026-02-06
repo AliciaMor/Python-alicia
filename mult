@@ -1,0 +1,5 @@
+print("Bonjour")
+mult=input("Quelle table de multiplication voulez vous connaître ?")
+mult=int(mult)
+for i in range(11) : 
+    print(f"{mult} x {i} = {mult*i}")
